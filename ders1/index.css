@@ -1,0 +1,52 @@
+.div {
+  width: 600px;
+  height: 400px;
+  background-color: brown;
+}
+.p {
+  background-color: burlywood;
+  font-size: larger;
+  font-family: fantasy;
+}
+.h1 {
+  background-color: cadetblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.h2 {
+  background-color: cadetblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.h3 {
+  background-color: cadetblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h1 {
+  background-color: burlywood;
+  position: absolute;
+
+  top: 150px;
+
+  right: 100px;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+
+  animation-duration: 3s;
+}
+
+@keyframes example {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
